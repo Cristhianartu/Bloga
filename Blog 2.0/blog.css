@@ -23,14 +23,16 @@
   }
 
   .header {
+    position: sticky;
+    top: 20px;
+    background: #1B1726;
     background-image:url(images/images/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 80vh;
-    padding: 80px 0;
+    height: 80px;
   }
 
   .menu {
@@ -85,7 +87,7 @@
  }
 
  .header-txt {
-    flex-basis: 50%;
+    width: 100%;
  }
 
  .header-txt h1 {
@@ -400,4 +402,19 @@ input {
         grid-gap: 30px;
         padding: 35px 0px;
     }
+  }
+
+
+  .main-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+  .container-aside-imgs {
+    max-width: 200px;
+    background: #FFF;
+    padding: 20PX;
   }
